@@ -1,0 +1,24 @@
+{
+
+  "manifest_version": 2,
+  "name": "LinkedIn No News Feed",
+  "version": "1.0",
+
+  "description": "Remove the news feed from LinkedIn",
+
+  "icons": {
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.linkedin.com/feed/"],
+      "js": ["linkedin-no-news-feed.js"],
+      "run_at": "document_start"
+    }
+  ],
+
+  "permissions": [
+    "<all_urls>",
+    "tabs"
+  ]
+}
