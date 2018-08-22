@@ -1,6 +1,6 @@
 # linkedin-no-news-feed
 
-linkedin-no-news-feed is a Firefox extension to remove the news feed from LinkedIn's site.
+linkedin-no-news-feed is a Firefox extension that removes the news feed from LinkedIn.
 
 ![Screenshot of extension in use](screenshot.png)
 
