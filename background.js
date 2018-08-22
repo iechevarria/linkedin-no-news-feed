@@ -3,7 +3,7 @@
 browser.tabs.onUpdated.addListener(
   function(tabId, changeInfo) {
     if (changeInfo.url && changeInfo.url == 'https://www.linkedin.com/feed/') {
-      chrome.tabs.sendMessage( tabId, {
+      browser.tabs.sendMessage( tabId, {
         remove: true
       })
     }
